@@ -14,11 +14,13 @@ python3 -m venv venv
 The virtual environment will be extremely useful when you begin installing the requirements. If you need more clarification on the creation of the virtual environment please refer to this [blog](https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/).
 After the virtual environment is created, ensure that it is activated, following the activation steps of the virtual environment tool you are using. Likely:
 
+
+***
 cd venv
 cd bin
 source activate
 cd ../../
-
+***
 
 After your virtual environment has been created and activated, you can install all the requirements found in the requirements.txt file by running this command in the root of this repos directory in your terminal:
 
